@@ -1,8 +1,8 @@
-Terraform code for Microsoft Azure
+# Terraform code for Microsoft Azure
 
 This repository contains Terraform code for creating and managing resources in Microsoft Azure. The code uses the Azure provider for Terraform, which allows you to define and provision Azure resources using Terraform.
 
-Getting Started
+# Getting Started
 
 1. Clone this repository to your local machine:
 
@@ -43,8 +43,8 @@ To destroy the resources created by the Terraform code, run:
 
 
 
-Contributing
+# Contributing
 If you find a bug or would like to suggest an improvement, please open an issue or submit a pull request.
 
-License
+# License
 This code is licensed under the MIT License. See the LICENSE file for more information.
