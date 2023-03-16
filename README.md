@@ -6,7 +6,7 @@ This repository contains Terraform code for creating and managing resources in M
 
 1. Clone this repository to your local machine:
 
-    git clone https://github.com/yourusername/terraform-azure.git
+     git clone https://github.com/yourusername/terraform-azure.git
 
 2. Install Terraform by following the instructions in the Terraform documentation: https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli.
 
@@ -14,15 +14,15 @@ This repository contains Terraform code for creating and managing resources in M
 
 4. Authenticate with Azure by running the following command:
 
-    az login
+      az login
 
 5. Change into the directory containing the Terraform code:
 
-    cd terraform-azure
+      cd terraform-azure
 
 6. Initialize the Terraform configuration by running:
 
-    terraform init
+      terraform init
     
     This will download the necessary provider plugins and set up the backend for storing state.
 
@@ -30,14 +30,14 @@ This repository contains Terraform code for creating and managing resources in M
 
 8. Apply the Terraform configuration by running:
 
-    terraform apply
+      terraform apply
     
     This will create the resources defined in the Terraform code. You will be prompted to confirm the changes before they are applied.
 
 9. Cleaning Up
 To destroy the resources created by the Terraform code, run:
 
-    terraform destroy
+      terraform destroy
     
     This will delete all resources created by the Terraform code. You will be prompted to confirm the destruction before it is carried out.
 
